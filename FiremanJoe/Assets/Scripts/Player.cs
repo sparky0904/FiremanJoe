@@ -9,7 +9,10 @@ public class Player : MonoBehaviour
     private Vector3 playerPos;
 
     public float Speed = 1f;
+
+    //TODO: Calculate the clamp left and right ranges for the player so it matches any screen size
     public float ClampLeft = -6f;
+
     public float ClampRight = 6f;
 
     // Use this for initialization
